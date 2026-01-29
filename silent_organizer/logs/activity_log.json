@@ -1,0 +1,168 @@
+[
+  {
+    "id": "f443d965c5fc4e2ea301cf7f79e3f278",
+    "timestamp_utc": "2026-01-29T11:44:45.424611+00:00",
+    "status": "completed",
+    "completed_timestamp_utc": "2026-01-29T11:44:45.424611+00:00",
+    "action_type": "event",
+    "event_type": "modified",
+    "source": "C:\\Users\\adith\\Downloads\\test.jpg",
+    "destination": null
+  },
+  {
+    "id": "171df4968669419295152719a2c25bbb",
+    "timestamp_utc": "2026-01-29T11:44:45.536213+00:00",
+    "status": "completed",
+    "action_type": "move",
+    "source": "C:\\Users\\adith\\Downloads\\test.jpg",
+    "destination": "C:\\Users\\adith\\Downloads\\SilentOrganizer\\Media\\Images\\2025-12-20 - Images - test.jpg",
+    "decision": {
+      "category_name": "Images",
+      "destination_relative": "Media/Images",
+      "confidence": 0.35,
+      "reasons": [
+        "extension:.jpg"
+      ]
+    },
+    "rename": {
+      "applied": true,
+      "confidence": 0.95,
+      "reasons": [
+        "date_from_mtime",
+        "title_tokens"
+      ]
+    },
+    "duplicate": {
+      "is_duplicate": false,
+      "duplicate_of_hash": null,
+      "hamming_distance": null
+    },
+    "perceptual_hash": null,
+    "completed_timestamp_utc": "2026-01-29T11:44:45.579102+00:00"
+  },
+  {
+    "id": "bbe56e5f28b947c5b078a101f21c9df2",
+    "timestamp_utc": "2026-01-29T11:44:47.437763+00:00",
+    "status": "completed",
+    "completed_timestamp_utc": "2026-01-29T11:44:47.437763+00:00",
+    "action_type": "event",
+    "event_type": "modified",
+    "source": "C:\\Users\\adith\\Downloads\\fixmate ai.pdf",
+    "destination": null
+  },
+  {
+    "id": "98c260df262841348ad6025ebbc8c29b",
+    "timestamp_utc": "2026-01-29T11:44:47.475166+00:00",
+    "status": "completed",
+    "action_type": "move",
+    "source": "C:\\Users\\adith\\Downloads\\fixmate ai.pdf",
+    "destination": "C:\\Users\\adith\\Downloads\\SilentOrganizer\\Education\\Lectures\\2026-01-29 - Lectures - fixmate ai.pdf",
+    "decision": {
+      "category_name": "Lectures",
+      "destination_relative": "Education/Lectures",
+      "confidence": 0.35,
+      "reasons": [
+        "extension:.pdf"
+      ]
+    },
+    "rename": {
+      "applied": true,
+      "confidence": 0.95,
+      "reasons": [
+        "date_from_mtime",
+        "title_tokens"
+      ]
+    },
+    "duplicate": {
+      "is_duplicate": false,
+      "duplicate_of_hash": null,
+      "hamming_distance": null
+    },
+    "perceptual_hash": null,
+    "completed_timestamp_utc": "2026-01-29T11:44:47.506918+00:00"
+  },
+  {
+    "id": "dff97205404f43e08141bfb2ff4305af",
+    "timestamp_utc": "2026-01-29T11:44:49.367193+00:00",
+    "status": "completed",
+    "completed_timestamp_utc": "2026-01-29T11:44:49.367193+00:00",
+    "action_type": "event",
+    "event_type": "modified",
+    "source": "C:\\Users\\adith\\Downloads\\FSAD_CO1_Topic_2.pptx",
+    "destination": null
+  },
+  {
+    "id": "a45b590f7ea349489a33131edfa574a3",
+    "timestamp_utc": "2026-01-29T11:44:49.406039+00:00",
+    "status": "completed",
+    "action_type": "move",
+    "source": "C:\\Users\\adith\\Downloads\\FSAD_CO1_Topic_2.pptx",
+    "destination": "C:\\Users\\adith\\Downloads\\SilentOrganizer\\Education\\Lectures\\2026-01-29 - Lectures - FSAD CO1 Topic.pptx",
+    "decision": {
+      "category_name": "Lectures",
+      "destination_relative": "Education/Lectures",
+      "confidence": 0.79,
+      "reasons": [
+        "extension:.pptx",
+        "keyword:ppt",
+        "keyword:pptx"
+      ]
+    },
+    "rename": {
+      "applied": true,
+      "confidence": 0.95,
+      "reasons": [
+        "date_from_mtime",
+        "title_tokens"
+      ]
+    },
+    "duplicate": {
+      "is_duplicate": false,
+      "duplicate_of_hash": null,
+      "hamming_distance": null
+    },
+    "perceptual_hash": null,
+    "completed_timestamp_utc": "2026-01-29T11:44:49.441091+00:00"
+  },
+  {
+    "id": "271988c6fc5e48119d03c3d17d84d2de",
+    "timestamp_utc": "2026-01-29T12:06:28.353279+00:00",
+    "status": "completed",
+    "completed_timestamp_utc": "2026-01-29T12:06:28.353279+00:00",
+    "action_type": "event",
+    "event_type": "modified",
+    "source": "C:\\Users\\adith\\Downloads\\desktop.ini",
+    "destination": null
+  },
+  {
+    "id": "29155db44d8443e1afccf752a938799d",
+    "timestamp_utc": "2026-01-29T12:06:28.403167+00:00",
+    "status": "completed",
+    "action_type": "move",
+    "source": "C:\\Users\\adith\\Downloads\\desktop.ini",
+    "destination": "C:\\Users\\adith\\Downloads\\SilentOrganizer\\Misc\\2025-10-27 - desktop.ini",
+    "decision": {
+      "category_name": "Fallback",
+      "destination_relative": "Misc",
+      "confidence": 0.25,
+      "reasons": [
+        "fallback"
+      ]
+    },
+    "rename": {
+      "applied": true,
+      "confidence": 0.95,
+      "reasons": [
+        "date_from_mtime",
+        "title_tokens"
+      ]
+    },
+    "duplicate": {
+      "is_duplicate": false,
+      "duplicate_of_hash": null,
+      "hamming_distance": null
+    },
+    "perceptual_hash": null,
+    "completed_timestamp_utc": "2026-01-29T12:06:28.437942+00:00"
+  }
+]

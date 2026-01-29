@@ -1,0 +1,4 @@
+"""
+Local-only FastAPI application.
+"""
+

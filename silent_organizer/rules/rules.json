@@ -1,0 +1,54 @@
+{
+  "version": 1,
+  "education_mode": true,
+  "base_destination": "~/Downloads/SilentOrganizer",
+  "rename": {
+    "enabled": true,
+    "confidence_threshold": 0.82
+  },
+  "duplicate_detection": {
+    "enabled": true,
+    "max_hamming_distance": 2,
+    "duplicates_destination": "Duplicates"
+  },
+  "categories": [
+    {
+      "name": "Lectures",
+      "destination": "Education/Lectures",
+      "keywords": ["lecture", "slides", "lesson", "ppt", "pptx"],
+      "extensions": [".pdf", ".ppt", ".pptx", ".key"]
+    },
+    {
+      "name": "Assignments",
+      "destination": "Education/Assignments",
+      "keywords": ["assignment", "homework", "hw", "problem set", "pset"],
+      "extensions": [".pdf", ".doc", ".docx", ".txt"]
+    },
+    {
+      "name": "Exams",
+      "destination": "Education/Exams",
+      "keywords": ["exam", "midterm", "final", "quiz", "test"],
+      "extensions": [".pdf", ".doc", ".docx"]
+    },
+    {
+      "name": "Notes",
+      "destination": "Education/Notes",
+      "keywords": ["notes", "note", "summary"],
+      "extensions": [".pdf", ".txt", ".md", ".doc", ".docx"]
+    },
+    {
+      "name": "Spreadsheets",
+      "destination": "Data/Spreadsheets",
+      "keywords": ["grade", "roster", "marks", "scores"],
+      "extensions": [".csv", ".xlsx", ".xls"]
+    },
+    {
+      "name": "Images",
+      "destination": "Media/Images",
+      "keywords": ["screenshot", "img", "photo", "scan"],
+      "extensions": [".png", ".jpg", ".jpeg", ".gif", ".bmp", ".tiff", ".webp"]
+    }
+  ],
+  "fallback_destination": "Misc"
+}
+
